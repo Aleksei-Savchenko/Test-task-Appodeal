@@ -5549,6 +5549,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6337012003544499062, guid: adaa4a040c11d414c948362349441105, type: 3}
   m_PrefabInstance: {fileID: 15498954236056062}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1620490369 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7722790511566355210, guid: adaa4a040c11d414c948362349441105, type: 3}
+  m_PrefabInstance: {fileID: 15498954236056062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c645a687879a2124a95915c7e5bd035f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1624200547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7607,6 +7618,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1340404533}
     m_Modifications:
+    - target: {fileID: 4354329166308920005, guid: adaa4a040c11d414c948362349441105, type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354329166308920005, guid: adaa4a040c11d414c948362349441105, type: 3}
+      propertyPath: playAnimationOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5105211329925322151, guid: adaa4a040c11d414c948362349441105, type: 3}
       propertyPath: m_Name
       value: GreenBtn
@@ -7690,18 +7709,6 @@ PrefabInstance:
     - target: {fileID: 6337012003544499062, guid: adaa4a040c11d414c948362349441105, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7614437205764718431, guid: adaa4a040c11d414c948362349441105, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 450
-      objectReference: {fileID: 0}
-    - target: {fileID: 8942148911383861397, guid: adaa4a040c11d414c948362349441105, type: 3}
-      propertyPath: m_text
-      value: PLAY
-      objectReference: {fileID: 0}
-    - target: {fileID: 8942148911383861397, guid: adaa4a040c11d414c948362349441105, type: 3}
-      propertyPath: m_fontSize
-      value: 72
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7830,6 +7837,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1051688262}
     m_Modifications:
+    - target: {fileID: 3457921388911701129, guid: d5e864b72e155594488ab80710322aa2, type: 3}
+      propertyPath: targetButton
+      value: 
+      objectReference: {fileID: 1620490369}
     - target: {fileID: 3837948579631963247, guid: d5e864b72e155594488ab80710322aa2, type: 3}
       propertyPath: m_Name
       value: Slider
