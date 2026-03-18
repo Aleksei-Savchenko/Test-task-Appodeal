@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 3181926891681022761}
   - component: {fileID: 7274840815353356662}
   - component: {fileID: 7722790511566355210}
+  - component: {fileID: 4354329166308920005}
+  - component: {fileID: 7613682587212583059}
   m_Layer: 0
   m_Name: GreenBtn
   m_TagString: Untagged
@@ -121,6 +123,38 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4354329166308920005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5105211329925322151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef3a99a30bded543a1d7c2b041098f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetButton: {fileID: 7722790511566355210}
+  animationController: {fileID: 7613682587212583059}
+  animationName: CustomButton_Idle
+  playAnimationOnAwake: 0
+--- !u!111 &7613682587212583059
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5105211329925322151}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 1a2dfb45f9891974dbf7a34eed3ebeed, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 1a2dfb45f9891974dbf7a34eed3ebeed, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &6050851871493621615
 GameObject:
   m_ObjectHideFlags: 0
